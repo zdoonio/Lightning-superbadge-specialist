@@ -1,0 +1,10 @@
+<!--
+ - Created by dominik on 15.02.19.
+ -->
+
+<aura:event type="APPLICATION" description="PlotMapMarker event to handle map">
+    <aura:attribute name="sObjectId" type="String"/>
+    <aura:attribute name="lat" type="String"/>
+    <aura:attribute name="long" type="String"/>
+    <aura:attribute name="label" type="String"/>
+</aura:event>
